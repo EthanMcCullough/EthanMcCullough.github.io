@@ -1,1 +1,55 @@
 
+h1{ color: gold; font-family: Copperplate, sans-serif; text-align: center
+  
+}
+
+.navbar {
+		background-color: navy;
+		position: relative;
+		z-index: 999; text-align: center
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+    background: navy;
+	}
+
+	.navbar li {
+		display: inline-block;
+	}
+
+	.navbar li a {
+		color: gold;
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+
+	/* Style the dropdown menu */
+	.navbar ul ul {
+		position: absolute;
+		top: 100%;
+		display: none;
+	}
+
+	.navbar ul ul li {
+		display: block;
+	}
+
+	.navbar li:hover ul {
+		display: block;
+	}
+
+	/* Change the background color of dropdown links on hover */
+	.navbar ul ul li a:hover {
+		background-color: #555;
+	}
+
+.a {color:gold; font-family: Sans-serif; position:relative; top:300px;text-align: left }
+.a1 {color:gold; font-family: Sans-serif; position:relative; top:281px; text-align: center }
+.a2 {color:gold; font-family: Sans-serif; position:relative; top:263px;text-align: right }
+.b{color:gold; font-family: sans-serif; position:relative; top:350px;text-align: left }
+.b1{color:gold; font-family: sans-serif; position:relative; top:330px;text-align: center }
+.b2{color:gold; font-family: sans-serif; position:relative; top:310px;text-align: right }
